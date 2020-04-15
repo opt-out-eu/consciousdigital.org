@@ -309,7 +309,8 @@ h1, h2, h3, h4, h5,
   font-weight: 900;
   font-size: 1.3rem;
   font-family: "Oswald", sans-serif;
-  letter-spacing: .2rem; }
+  line-height: 1em;
+  letter-spacing: .1rem; }
   .site-logo a {
     color: #fff; }
 
@@ -692,14 +693,14 @@ h1, h2, h3, h4, h5,
   position: relative; }
   .intro-section, .intro-section .container .row {
     height: 100vh;
-    min-height: 1200px; }
+    min-height: 800px; }
   .intro-section:before {
     content: "";
     position: absolute;
-    height: 100%;
-    width: 70%;
-    background: #352961;
-    border-bottom-right-radius: 200px; }
+    height: 80%;
+    width: 80%;
+    background: #b10068;
+    border-bottom-right-radius: 590px; }
     @media (max-width: 991.98px) {
       .intro-section:before {
         width: 100%; } }
@@ -718,7 +719,7 @@ h1, h2, h3, h4, h5,
     border-width: 2px; }
 
 .site-section {
-  padding: 10em 0; }
+  padding: 7em 0 3em; }
   @media (max-width: 991.98px) {
     .site-section {
       padding: 4em 0; } }
