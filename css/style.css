@@ -692,15 +692,15 @@ h1, h2, h3, h4, h5,
 .intro-section {
   position: relative; }
   .intro-section, .intro-section .container .row {
-    height: 100vh;
-    min-height: 800px; }
+    height: 80vh;
+    min-height: 650px; }
   .intro-section:before {
     content: "";
     position: absolute;
     height: 80%;
     width: 80%;
-    background: #b10068;
-    border-bottom-right-radius: 590px; }
+    background: #000d32;
+    border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .intro-section:before {
         width: 100%; } }
@@ -929,7 +929,7 @@ h1, h2, h3, h4, h5,
       background-color: #352961; }
 
 .footer-section {
-  padding: 7em 0; }
+  padding: 7em 0 0; }
   .footer-section p {
     font-size: 1rem; }
   .footer-section h3 {
