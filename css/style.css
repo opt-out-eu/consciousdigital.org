@@ -138,12 +138,12 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
-  padding: 2.5em 0; }
+  padding: 2.5em 0 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 5em 0 0; } }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 4em 0 0 ; }
 
 .site-section-heading {
   padding-bottom: 20px;
@@ -719,7 +719,7 @@ h1, h2, h3, h4, h5,
     border-width: 2px; }
 
 .site-section {
-  padding: 7em 0 3em; }
+  padding: 7em 0 0; }
   @media (max-width: 991.98px) {
     .site-section {
       padding: 4em 0; } }
