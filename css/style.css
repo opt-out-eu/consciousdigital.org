@@ -121,6 +121,28 @@ h1, h2, h3, h4, h5,
         background: #fff;
         color: #000; }
 
+  .btn.btn-green {
+    border-width: 2px;
+    border-color: #00AE8D;
+    background: #00AE8D;
+    color: #000; }
+    .btn.btn-white:hover {
+      color: #00AE8D;
+      background-color: transparent; }
+    .btn.btn-white.btn-outline-white {
+      color: #00AE8D;
+      background-color: transparent; }
+      .btn.btn-white.btn-outline-white:hover {
+        border-color: #00AE8D;
+        background: #00AE8D;
+        color: #000; }
+  .bg-green {
+    background-color: #00AE8D!important;
+  }
+  .border-green {
+    border-color: #00AE8D!important;
+  }
+
 .line-height-1 {
   line-height: 1 !important; }
 
